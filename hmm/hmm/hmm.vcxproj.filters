@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{160341b9-ee19-4cad-ae04-5bf7fa162e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\hmm">
+      <UniqueIdentifier>{c0fde9f0-fc95-4314-809e-090d1e359920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\common">
+      <UniqueIdentifier>{ca3a1fab-cc20-4625-b27d-8453db2fb48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hmm">
+      <UniqueIdentifier>{6f30b25e-6ebe-4ef3-846b-9b0c3f480e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\speech">
+      <UniqueIdentifier>{e14ab3fd-853b-4005-a211-0e85335c5833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{9c7a665d-fc4d-4369-9ece-243715ecd9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\speech">
+      <UniqueIdentifier>{20c5edb1-0d35-49bd-b611-06a297923811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hmm.cpp">
+      <Filter>Source Files\src\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="lamda.cpp">
+      <Filter>Source Files\src\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>Source Files\src\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="speech.cpp">
+      <Filter>Source Files\src\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="vq.cpp">
+      <Filter>Source Files\src\speech</Filter>
+    </ClCompile>
+    <ClCompile Include="codebook.cpp">
+      <Filter>Source Files\src\speech</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="hmm.h">
+      <Filter>Header Files\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="lamda.h">
+      <Filter>Header Files\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>Header Files\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="speech.h">
+      <Filter>Header Files\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="vq.h">
+      <Filter>Header Files\speech</Filter>
+    </ClInclude>
+    <ClInclude Include="codebook.h">
+      <Filter>Header Files\speech</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
