@@ -1,3 +1,3 @@
 Speech
 ======
-This repository contains source code for digit utterence recognition.
+This repository contains source code of digit utterence recognition using Hidden Markov Model.
